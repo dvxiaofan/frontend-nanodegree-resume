@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-04-10 19:00:10
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-04-14 01:18:52
+* @Last Modified time: 2018-04-14 16:15:01
 */
 
 
@@ -222,19 +222,19 @@
 //    console.log(donut.type + " donuts cost $" + donut.cost + " each"); 
 // });
 
-var outsideExample = "First string";
-function example() {
-    var outsideExample = "Second string";
-}
-example();
-console.log(outsideExample);
-
 // var outsideExample = "First string";
 // function example() {
-//     outsideExample = "Second string";
+//     var outsideExample = "Second string";
 // }
 // example();
 // console.log(outsideExample);
+
+var outsideExample = "First string";
+function example() {
+    outsideExample = "Second string";
+}
+example();
+console.log(outsideExample);
 
 
 
